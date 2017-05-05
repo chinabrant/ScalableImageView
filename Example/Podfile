@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ScalableImageView_Example' do
+  pod 'ScalableImageView', :path => '../'
+
+  target 'ScalableImageView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
