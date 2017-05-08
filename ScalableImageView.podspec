@@ -32,7 +32,7 @@ s.author             = { "brant" => "sjwu1234@gmail.com" }
 s.platform     = :ios, "8.0"
 
 # 源码地址
-s.source       = { :git => "https://github.com/chinabrant/ScalableImageView.git", :tag => "1.0" }
+s.source       = { :git => "https://github.com/chinabrant/ScalableImageView.git", :tag => "0.0.1" }
 
 # 源码路径
 s.source_files  = "ScalableImageView/Classes", "ScalableImageView/Classes/**/*"
