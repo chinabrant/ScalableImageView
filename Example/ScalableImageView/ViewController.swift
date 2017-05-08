@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import ScalableImageView
 
 class ViewController: UIViewController {
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let imageView = ScalableImageView(frame: self.view.bounds)
+        imageView.image = UIImage(named: "test")
+        self.view.addSubview(imageView)
     }
 
     override func didReceiveMemoryWarning() {

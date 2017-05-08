@@ -1,7 +1,10 @@
 use_frameworks!
 
+source 'https://github.com/chinabrant/BRSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'ScalableImageView_Example' do
-  pod 'ScalableImageView', :path => '../'
+    pod 'ScalableImageView', :path => '../'
 
   target 'ScalableImageView_Tests' do
     inherit! :search_paths

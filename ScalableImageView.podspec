@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 # 名称
 s.name         = "ScalableImageView"
 # 版本
-s.version      = "0.0.1"
+s.version      = "0.1.0"
 # 摘要
 s.summary      = "这是用来测试的"
 
@@ -32,7 +32,7 @@ s.author             = { "brant" => "sjwu1234@gmail.com" }
 s.platform     = :ios, "8.0"
 
 # 源码地址
-s.source       = { :git => "https://github.com/chinabrant/ScalableImageView.git", :tag => "0.0.1" }
+s.source       = { :git => "https://github.com/chinabrant/ScalableImageView.git", :tag => "0.1.0" }
 
 # 源码路径
 s.source_files  = "ScalableImageView/Classes", "ScalableImageView/Classes/**/*"

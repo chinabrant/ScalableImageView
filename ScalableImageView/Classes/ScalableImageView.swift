@@ -16,7 +16,7 @@ public class ScalableImageView: UIScrollView, UIScrollViewDelegate {
         return imgView
     }()
     
-    var image: UIImage? {
+    public var image: UIImage? {
         didSet {
             if let image = image {
                 self.imageView.image = image

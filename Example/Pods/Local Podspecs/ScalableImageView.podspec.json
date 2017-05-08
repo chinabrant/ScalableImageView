@@ -1,22 +1,23 @@
 {
   "name": "ScalableImageView",
-  "version": "0.1.0",
-  "summary": "A short description of ScalableImageView.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sjwu1234@gmail.com/ScalableImageView",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "version": "0.0.1",
+  "summary": "这是用来测试的",
+  "description": "可以手势放大缩小的imageview.支持单击，连点，缩放。",
+  "homepage": "https://github.com/chinabrant/ScalableImageView",
+  "license": "MIT",
   "authors": {
-    "sjwu1234@gmail.com": "sjwu1234@gmail.com"
-  },
-  "source": {
-    "git": "https://github.com/sjwu1234@gmail.com/ScalableImageView.git",
-    "tag": "0.1.0"
+    "brant": "sjwu1234@gmail.com"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ScalableImageView/Classes/**/*"
+  "source": {
+    "git": "https://github.com/chinabrant/ScalableImageView.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "ScalableImageView/Classes",
+    "ScalableImageView/Classes/**/*"
+  ],
+  "exclude_files": "Classes/Exclude"
 }

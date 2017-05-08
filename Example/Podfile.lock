@@ -1,7 +1,9 @@
 PODS:
-  - ScalableImageView (0.1.0)
+  - MJRefresh (3.1.12)
+  - ScalableImageView (0.0.1)
 
 DEPENDENCIES:
+  - MJRefresh
   - ScalableImageView (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +11,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ScalableImageView: 6d40589355996294a53e0b932cae54f35ff1b688
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  ScalableImageView: 5887043469049bc88565217d9c903c705eb61280
 
-PODFILE CHECKSUM: 6cd512103f3977b26a8a29deb28113d55662c37e
+PODFILE CHECKSUM: a04c00eee7f422b2655b26351a88e298518d93a1
 
 COCOAPODS: 1.2.0
