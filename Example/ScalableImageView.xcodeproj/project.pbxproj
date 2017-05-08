@@ -38,15 +38,15 @@
 		607FACE51AFB9204008FA782 /* ScalableImageView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScalableImageView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8D06615FC09217C5E9D1A188 /* ScalableImageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ScalableImageView.podspec; path = ../ScalableImageView.podspec; sourceTree = "<group>"; };
+		8D06615FC09217C5E9D1A188 /* ScalableImageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ScalableImageView.podspec; path = ../ScalableImageView.podspec; sourceTree = "<group>"; };
 		9892649B1223E2206774F8F5 /* Pods-ScalableImageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScalableImageView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScalableImageView_Example/Pods-ScalableImageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B0B5FC8D3C4458FE17671C70 /* Pods-ScalableImageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScalableImageView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScalableImageView_Tests/Pods-ScalableImageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B945D53DB30E5A65940672BE /* Pods_ScalableImageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScalableImageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF16FCFD64AF02ECE5F74942 /* Pods_ScalableImageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScalableImageView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D4A145ABE4FF98825ED322 /* Pods-ScalableImageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScalableImageView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScalableImageView_Tests/Pods-ScalableImageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F060E0410DA07EE13AE00C6C /* Pods-ScalableImageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScalableImageView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScalableImageView_Example/Pods-ScalableImageView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F7330DD7FB9F1E37F7BD8541 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FC46165A87FF61B27C90DEB8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F7330DD7FB9F1E37F7BD8541 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FC46165A87FF61B27C90DEB8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -1,0 +1,22 @@
+{
+  "name": "ScalableImageView",
+  "version": "0.1.0",
+  "summary": "A short description of ScalableImageView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sjwu1234@gmail.com/ScalableImageView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sjwu1234@gmail.com": "sjwu1234@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sjwu1234@gmail.com/ScalableImageView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ScalableImageView/Classes/**/*"
+}

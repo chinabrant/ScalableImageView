@@ -1,42 +1,71 @@
-#
-# Be sure to run `pod lib lint ScalableImageView.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
-  s.name             = 'ScalableImageView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ScalableImageView.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+# 名称
+s.name         = "ScalableImageView"
+# 版本
+s.version      = "0.0.1"
+# 摘要
+s.summary      = "这是用来测试的"
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+# 这个描述是用来生成tags和优化搜索结果的
+s.description  = <<-DESC
+可以手势放大缩小的imageview.支持单击，连点，缩放。
+DESC
 
-  s.homepage         = 'https://github.com/sjwu1234@gmail.com/ScalableImageView'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'sjwu1234@gmail.com' => 'sjwu1234@gmail.com' }
-  s.source           = { :git => 'https://github.com/sjwu1234@gmail.com/ScalableImageView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+# 项目主页
+s.homepage     = "https://github.com/chinabrant/ScalableImageView"
 
-  s.ios.deployment_target = '8.0'
+# 授权协议
+s.license      = "MIT"
+# s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
-  s.source_files = 'ScalableImageView/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ScalableImageView' => ['ScalableImageView/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+# 作者信息
+s.author             = { "brant" => "sjwu1234@gmail.com" }
+# Or just: s.author    = "brant"
+# s.authors            = { "brant" => "sjwu1234@gmail.com" }
+# s.social_media_url   = "http://twitter.com/brant"
+
+
+# 平台
+s.platform     = :ios, "8.0"
+
+# 源码地址
+s.source       = { :git => "https://github.com/chinabrant/ScalableImageView.git", :tag => "1.0" }
+
+# 源码路径
+s.source_files  = "ScalableImageView/Classes", "ScalableImageView/Classes/**/*"
+s.exclude_files = "Classes/Exclude"
+
+# subspec 可以这样将库分成更小的模块,Podfile里面可以只引入想要的子模块
+#s.subspec 'ImageBrowser' do |imagebrowser|
+#imagebrowser.source_files = "Classes/ImageBrowser/**/*"
+#end
+
+# s.public_header_files = "Classes/**/*.h"
+
+# 资源路径
+# s.resource  = "icon.png"
+# s.resources = "Resources/*.png"
+
+# s.preserve_paths = "FilesToSave", "MoreFilesToSave"
+
+# 用到的系统framework
+# s.framework  = "SomeFramework"
+# s.frameworks = "SomeFramework", "AnotherFramework"
+
+# 动态库
+# s.library   = "iconv"
+# s.libraries = "iconv", "xml2"
+
+# 是否要arc
+# s.requires_arc = true
+
+# s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+
+# 依赖关系 多个就写多条
+# s.dependency "JSONKit", "~> 1.4"
+# s.dependency "JSONKit", "~> 1.4"
+
 end

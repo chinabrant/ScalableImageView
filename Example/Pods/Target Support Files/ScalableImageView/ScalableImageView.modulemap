@@ -1,0 +1,6 @@
+framework module ScalableImageView {
+  umbrella header "ScalableImageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - ScalableImageView (0.1.0)
+
+DEPENDENCIES:
+  - ScalableImageView (from `../`)
+
+EXTERNAL SOURCES:
+  ScalableImageView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ScalableImageView: 6d40589355996294a53e0b932cae54f35ff1b688
+
+PODFILE CHECKSUM: 6cd512103f3977b26a8a29deb28113d55662c37e
+
+COCOAPODS: 1.2.0
